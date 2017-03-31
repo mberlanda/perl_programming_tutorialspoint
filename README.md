@@ -7,3 +7,4 @@ Perl programming language tutorial from tutorials point
 - [04. Data Types](04_data_types/notes.md)
 - [05. Variables](05_variables/notes.md)
 - [06. Scalars](06_scalars/notes.md)
+- [07. Arrays](07_arrays/notes.md)
