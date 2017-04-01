@@ -10,3 +10,4 @@ Perl programming language tutorial from tutorials point
 - [07. Arrays](07_arrays/notes.md)
 - [08. Hashes](08_hashes/notes.md)
 - [09. If...Else](09_if_else/notes.md)
+- [10. Loops](10_loops/notes.md)
