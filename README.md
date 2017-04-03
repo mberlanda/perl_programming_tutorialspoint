@@ -11,3 +11,4 @@ Perl programming language tutorial from tutorials point
 - [08. Hashes](08_hashes/notes.md)
 - [09. If...Else](09_if_else/notes.md)
 - [10. Loops](10_loops/notes.md)
+- [11. Operators](11_operators/notes.md)
