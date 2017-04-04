@@ -13,3 +13,4 @@ Perl programming language tutorial from tutorials point
 - [10. Loops](10_loops/notes.md)
 - [11. Operators](11_operators/notes.md)
 - [12. Date and Time](12_date_and_time/notes.md)
+- [13. Subroutines](13_subroutines/notes.md)
