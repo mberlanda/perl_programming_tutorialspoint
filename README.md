@@ -15,3 +15,4 @@ Perl programming language tutorial from tutorials point
 - [12. Date and Time](12_date_and_time/notes.md)
 - [13. Subroutines](13_subroutines/notes.md)
 - [14. References](14_references/notes.md)
+- [15. Formats](15_formats/notes.md)
