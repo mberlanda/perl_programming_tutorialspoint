@@ -1,0 +1,59 @@
+# 16 File I/O
+
+- A filehandle is a named internal Perl structure that associates a physical file with a name.
+- All filehandles are capable of read/write access.
+- Three basic file handles are `STDIN`, `STDOUT`, and `STDERR`
+
+Opening and Closing Files
+
+```pl
+open FILEHANDLE, EXPR
+open FILEHANDLE
+sysopen FILEHANDLE, FILENAME, MODE, PERMS
+sysopen FILEHANDLE, FILENAME, MODE
+```
+
+Open Function ([open.pl](open.pl))
+
+```pl
+open(DATA, "<file.txt");
+```
+Entities | Definition
+---------|-----------
+`<` or `r` | Read Only Access
+`>` or `w` | Creates, Writes, and Truncates
+`>>` or `a` | Writes, Appends, and Creates
+`+<` or `r+` | Reads and Writes
+`+>` or `w+` | Reads, Writes, Creates, and Truncates
+`+>>` or `a+` | Reads, Writes, Appends, and Creates
+
+Sysopen Function ([sysopen.pl](sysopen.pl))
+
+The `PERMS` takes by default `0x666`.
+
+```pl
+sysopen(DATA, "file.txt", O_RDWR); # update a file
+sysopen(DATA, "file.txt", O_RDWR|O_TRUNC ); # truncate the file before updating
+```
+
+Entities | Definition
+---------|-----------
+O_RDWR | Read and Write
+O_RDONLY | Read Only
+O_WRONLY | Write Only
+O_CREAT | Create the file
+O_APPEND | Append the file
+O_TRUNC | Truncate the file
+O_EXCL | Stops if file already exists
+O_NONBLOCK | Non-Blocking usability
+
+Close Function
+
+```
+close FILEHANDLE
+close
+close(DATA) || die "Couldn't close file properly";
+```
+
+The <FILEHANDLE> Operator ([filehandle.pl](filehandle.pl))
+

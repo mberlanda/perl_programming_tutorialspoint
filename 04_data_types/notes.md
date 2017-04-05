@@ -1,6 +1,5 @@
 # 04 Data Types
 
-
 Data Type | Description
 ----------| -----------
 Scalar    | simple variables preceded by `$` (number, string, or reference)
