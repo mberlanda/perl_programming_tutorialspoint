@@ -17,3 +17,4 @@ Perl programming language tutorial from tutorials point
 - [14. References](14_references/notes.md)
 - [15. Formats](15_formats/notes.md)
 - [16. File I/O](16_file_io/notes.md)
+- [17. Directories](17_directories/notes.md)
