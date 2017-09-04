@@ -18,3 +18,4 @@ Perl programming language tutorial from tutorials point
 - [15. Formats](15_formats/notes.md)
 - [16. File I/O](16_file_io/notes.md)
 - [17. Directories](17_directories/notes.md)
+- [18. Error Handling](18_error_handling/notes.md)
